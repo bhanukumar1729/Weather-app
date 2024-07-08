@@ -1,0 +1,16 @@
+.infoBox{
+    text-align: center;
+    margin-bottom: 7rem;
+   
+}
+
+.cardHolder{
+    display: flex;
+    justify-content: center;
+    ;
+
+}
+
+.divHolder div h4 *{
+  margin: 4px 4px 0 0 ;
+}
