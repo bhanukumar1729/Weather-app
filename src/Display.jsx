@@ -118,10 +118,9 @@ export default function Display({info}){
             <h4> {info.weather} and feels like {info.feelsLike}&deg;C </h4>
         </Typography>
       </CardContent>
-      <Typography style={{color:"red" }}>
-      <b><h3>Disclamier! Values may not be accurate. <br /> Image is just for understanding purpose</h3></b>
-      </Typography>
-
+      {!isExpand ? <Typography >
+      <b><h3><b style={{color:"red" }}>Disclamier!</b> Values may not be accurate. <br /> Image is just for understanding purpose</h3></b>
+      </Typography> : ''}
 
       <IconButton aria-label="delete" onClick={Expand}>
        {isExpand?<div>
